@@ -8,14 +8,64 @@ body {
 }
 
 .sidebar {
-    background-color: blue;
+    background-color: rgb(0, 0, 255);
     grid-area: 1 / 1 / -1 / 2;
+    display: grid;
+}
+
+.sidebar>h1 {
+    color: white;
+    margin: 60px;
+}
+
+.sidebar>ul {
+    margin: 50px;
+}
+
+.sidebar>ul>li {
+    margin: 10px;
+    color: white;
+    font-size: larger;
 }
 
 .header {
     background-color: white;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.header>div>button {
+    background-color: blue;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    width: 90px;
+    height: 30px;
+    margin: 10px;
+}
+
+.header>input {
+    height: 20px;
+    width: 300px;
+    background-color: lightgray;
+    border-radius: 10px;
 }
 
 .main {
-    background-color: gray;
+    background-color: lightgray;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+}
+
+.main>div>div {
+    background-color: white;
+}
+
+.main2 {
+    grid-row: 2 / 2;
+    grid-column: 2 / 2;
 }
