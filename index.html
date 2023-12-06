@@ -8,23 +8,64 @@
 </head>
 <body>
     <div class="sidebar">
-        <h1>Dashboard</h1>
+        <div id="title">
+            <img  id="dashboardimg"src="media/assistant.svg" alt="profile image">
+            <h1>Dashboard</h1>
+        </div>
         <ul>
-            <li>Home</li>
-            <li>Profile</li>
-            <li>Message</li>
-            <li>History</li>
-            <li>Tasks</li>
-            <li>Communities</li><br><br>
-            <li>Settings</li>
-            <li>Support</li>
-            <li>Privacy</li>
+            <div id="sidebardiv">
+                <img id="sidebarlogo"src="media/home.svg" alt="home logo">
+                <li>Home</li>
+            </div>
+            <div id="sidebardiv">
+                <img id="sidebarlogo" src="media/account-circle-outline.svg" alt="profile logo">
+                <li>Profile</li>
+            </div>
+            <div id="sidebardiv">
+                <img id="sidebarlogo" src="media/message-badge-outline.svg" alt="message logo">
+                <li>Message</li>
+            </div>
+            <div id="sidebardiv">
+                <img id="sidebarlogo" src="media/history.svg" alt="history logo">
+                <li>History</li>
+            </div>
+            <div id="sidebardiv">
+                <img id="sidebarlogo" src="media/file-alert-outline.svg" alt="tasks logo">
+                <li>Tasks</li>
+            </div>
+            <div id="sidebardiv">
+                <img id="sidebarlogo" src="media/account-group-outline.svg" alt="communities logo">
+                <li>Communities</li>
+            </div>
+            <br><br>
+            <div id="sidebardiv">
+                <img id="sidebarlogo" src="media/cog.svg" alt="settings logo">
+                <li>Settings</li>
+            </div>
+            <div id="sidebardiv">
+                <img id="sidebarlogo" src="media/help-circle-outline.svg" alt="support logo">
+                <li>Support</li>
+            </div>
+            <div id="sidebardiv">
+                <img id="sidebarlogo" src="media/shield.svg" alt="privacy logo">
+                <li>Privacy</li>
+            </div>
         </ul>
     </div>
     <div class="header"> 
-        <input type="text">
-        <h3>First Name, Last Name</h3>
-        <h1>Hello First Name, Last Name</h1>
+        <div id="search">
+            <img src="media/magnify.svg" alt="magnify logo">
+            <input type="text">
+        </div>
+        <div id="headerTopRight">
+            <img src="media/bell-ring.svg" alt="alert logo">
+            <img src="media/account-circle-outline.svg" alt="profile logo">
+            <h3>First Name, Last Name</h3>
+        </div>
+        <div id="headerBottomLeft">
+            <img src="media/account-circle-outline.svg" alt="profile logo">
+            <h1><span>Hello,</span> <br>First Name, Last Name</h1>
+        </div>
         <div>
             <button>New</button>
             <button>Upload</button>
@@ -32,13 +73,18 @@
         </div>
     </div>
     <div class="main">
-        <h1>Your Projects</h1>
-        <h1>Announcements</h1>
+        <h2>Your Projects</h2>
+        <h2>Announcements</h2>
         <div id="projects">
                 <div>
                     <h3>Test Project 1</h3>
                     <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                         Viverra aliquet eget sit amet tellus cras adipiscing enim. Nunc non blandit massa enim. </h4>
+                    <div id="projectLogos">
+                        <img src="media/thumb-up-outline.svg" alt="like logo">
+                        <img src="media/eye-outline.svg" alt="view logo">
+                        <img src="media/download-circle-outline.svg" alt="download logo">
+                    </div>
                 </div>
                 <div>
                     <h3>Test Project 2</h3>
@@ -46,6 +92,11 @@
                         Interdum varius sit amet mattis vulputate enim nulla aliquet porttitor. Laoreet id donec ultrices tincidunt arcu non.  Scelerisque in dictum non consectetur a erat nam at. 
                         Est placerat in egestas erat imperdiet sed euismod nisi porta
                     </h4>
+                    <div id="projectLogos">
+                        <img src="media/thumb-up-outline.svg" alt="like logo">
+                        <img src="media/eye-outline.svg" alt="view logo">
+                        <img src="media/download-circle-outline.svg" alt="download logo">
+                    </div>
                 </div>
                 <div>
                     <h3>Test Project 3</h3>
@@ -53,11 +104,22 @@
                         Ut placerat orci nulla pellentesque dignissim enim. Neque aliquam vestibulum morbi blandit cursus risus. Duis at consectetur lorem donec massa sapien faucibus et. 
                         Lorem ipsum dolor sit amet. Mus mauris vitae ultricies leo integer malesuada nunc. Porttitor rhoncus dolor purus non enim praesent elementum. Orci porta non pulvinar neque laoreet suspendisse interdum. 
                     </h4>
+                    <div id="projectLogos">
+                        <img src="media/thumb-up-outline.svg" alt="like logo">
+                        <img src="media/eye-outline.svg" alt="view logo">
+                        <img src="media/download-circle-outline.svg" alt="download logo">
+                    </div>
                 </div>
                 <div>
                     <h3>Test Project 4</h3>
                     <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                        Viverra aliquet eget sit amet tellus cras adipiscing enim. Nunc non blandit massa enim. </h4>
+                        Viverra aliquet eget sit amet tellus cras adipiscing enim. Nunc non blandit massa enim. 
+                    </h4>
+                    <div id="projectLogos">
+                        <img src="media/thumb-up-outline.svg" alt="like logo">
+                        <img src="media/eye-outline.svg" alt="view logo">
+                        <img src="media/download-circle-outline.svg" alt="download logo">
+                    </div>
                 </div>
                 <div>
                     <h3>Test Project 5</h3>
@@ -65,6 +127,11 @@
                         Interdum varius sit amet mattis vulputate enim nulla aliquet porttitor. Laoreet id donec ultrices tincidunt arcu non.  Scelerisque in dictum non consectetur a erat nam at. 
                         Est placerat in egestas erat imperdiet sed euismod nisi porta
                     </h4>
+                    <div id="projectLogos">
+                        <img src="media/thumb-up-outline.svg" alt="like logo">
+                        <img src="media/eye-outline.svg" alt="view logo">
+                        <img src="media/download-circle-outline.svg" alt="download logo">
+                    </div>
                 </div>
                 <div>
                     <h3>Test Project 6</h3>
@@ -72,6 +139,11 @@
                         Ut placerat orci nulla pellentesque dignissim enim. Neque aliquam vestibulum morbi blandit cursus risus. Duis at consectetur lorem donec massa sapien faucibus et. 
                         Lorem ipsum dolor sit amet. Mus mauris vitae ultricies leo integer malesuada nunc. Porttitor rhoncus dolor purus non enim praesent elementum. Orci porta non pulvinar neque laoreet suspendisse interdum. 
                     </h4>
+                    <div id="projectLogos">
+                        <img src="media/thumb-up-outline.svg" alt="like logo">
+                        <img src="media/eye-outline.svg" alt="view logo">
+                        <img src="media/download-circle-outline.svg" alt="download logo">
+                    </div>
                 </div>
             </div>
         <div>
