@@ -150,6 +150,10 @@ img {
     display: grid;
 }
 
+#projects>div:hover {
+    transform: scale(1.015);
+}
+
 #projects>div>h4 {
     font-weight: 200;
 }
